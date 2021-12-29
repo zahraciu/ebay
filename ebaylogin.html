@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBay Registration</title>
+    <style>
+        .nav-login{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 10px;
+            align-items: center;
+            color:  rgb(60, 104, 248);
+        }
+        .nav-login .logo2 img{
+            width: 90px;
+            height: 40px;
+        }
+        .login-form2 input,button{
+            width: 280px;
+    
+        }
+        .box{
+            justify-content: center;
+            /*background-color: lightcoral;*/
+            margin: auto;
+            max-width: 350px;
+            }
+        .login-form2 input,button,p{
+            display: block; 
+            margin: 5px auto; 
+            width: 70%;
+            border-radius: 20px;
+            padding: 10px 5px;
+        }
+        
+      
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-login">
+            <div class="logo2">
+                <img src="./ebay-logo.png" alt="eBay-logo">
+            </div>
+            <div class="think">
+                <span>Tell us what you think</span>
+            </div>
+        </div>
+    </header>
+    <div class="box">
+        <div class="login-form1">
+            <h1 style=" display: flex; justify-content: center;">Hello</h1>
+            <span style="padding-left: 55px ;">Sign in to eBay or </span><span style="color: rgb(37, 33, 250); text-decoration: underline;">create an account</span>
+        </div>
+        <form action="">
+            <div class="login-form2">
+               <input style="border-radius: 5px; background-color: rgb(247, 242, 242);" type="email" placeholder="Enter your Email" stylerequired ><br>
+               <input style="border-radius: 5px; background-color: rgb(247, 242, 242);" type="password" name="pass" id="pass" placeholder="Enter your Password"><br>
+               
+               <button style="background-color: rgb(60, 104, 248); color: white;font-size: 1.1em;" type="submit" id="submit" name="submit">Continue</button>
+               <p>-------------------     or    ------------------</p>
+               <button style="background-color: rgb(63, 92, 187); color: white; font-size: 1.1em;" >Continue with Facebook</button><br>
+               <button style="background-color: white; color: black;font-size: 1.1em;" >Continue with Google</button><br>
+               <button style="background-color: white; color: black;font-size: 1.1em;" >Continue with Apple</button><br>
+               <p style="display: block; margin: 0px auto; width: 70%;">Using a public or shared device?<br>
+                   Uncheck to protect your account.
+               </p>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
